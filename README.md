@@ -1,7 +1,7 @@
 # Chatbot no Telegram utilizando Node.js :robot:
 
 [![Generic badge](https://img.shields.io/badge/runtime-Node.js-green.svg)](https://nodejs.org)
-[![Generic badge](https://img.shields.io/badge/plataform-Dialogform-orange.svg)](https://dialogflow.cloud.google.com/)
+[![Generic badge](https://img.shields.io/badge/platform-Dialogform-orange.svg)](https://dialogflow.cloud.google.com/)
 [![Generic badge](https://img.shields.io/badge/API-Youtube-red.svg)](https://developers.google.com/youtube/v3/quickstart/nodejs)
 
 
@@ -48,17 +48,17 @@ Using [Dialogflow](https://dialogflow.cloud.google.com/) create a agent. In the 
 
 Working with Dialogflow you can set a new Entitie with the general content for work with Intents. Configuring Intents, you can define some patterns for the users asks and put some answers for it, wich helps the bot understands the content.
 
-:incoming_envelope: NOTE: In the code(index.js), the Intent from Dialogflow was configurated as 'treinos'. If you want to create a new Intent, just change the value for the same name you created.
+:incoming_envelope: NOTE: In the code(index.js), the Intent from Dialogflow was configured as 'treinos'. If you want to create a new Intent, just change the value for the same name you created on Dialogform.
 
 -----
-Finished those steps, you need to get the key from [Youtube's API](https://developers.google.com/youtube/v3/quickstart/nodejs) to become able to search and send the video for the user. After you get the key, set it at yt-config.json document.
+Finished those steps, you need to get the key from [Youtube's API](https://developers.google.com/youtube/v3/quickstart/nodejs) to become able to search and send video for the user. After you get the key, set it at yt-config.json document.
 
 ## Usage :key:
 Access the link of your bot window from BotFather to begin:
 ```bash
 Done! Congratulations on your new bot. You will find it at t.me/NAMEOFYOURBOT_bot.
 ```
-Send a message as you configurated at Dialogflow and the bot will text you back sending a video from Youtube
+Send a message as you configured at Dialogflow and the bot will text you back sending a video from Youtube
 
 ## Contributing :earth_americas:
 Pull requests are welcome. 
