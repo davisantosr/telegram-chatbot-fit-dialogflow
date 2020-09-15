@@ -1,4 +1,4 @@
-# Chatbot no Telegram utilizando Node.js :robot:
+# Telegram Chatbot using Node.js :robot:
 
 [![Generic badge](https://img.shields.io/badge/runtime-Node.js-green.svg)](https://nodejs.org)
 [![Generic badge](https://img.shields.io/badge/platform-Dialogform-orange.svg)](https://dialogflow.cloud.google.com/)
